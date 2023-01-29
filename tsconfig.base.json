@@ -1,0 +1,49 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@tutos-monorepo/shared/utils": ["libs/shared/utils/src/index.ts"],
+      "@tutos-monorepo/template-driven-forms/attestations/data-access": [
+        "libs/template-driven-forms/attestations/data-access/src/index.ts"
+      ],
+      "@tutos-monorepo/template-driven-forms/attestations/feature": [
+        "libs/template-driven-forms/attestations/feature/src/index.ts"
+      ],
+      "@tutos-monorepo/template-driven-forms/create-attestation/feature": [
+        "libs/template-driven-forms/create-attestation/feature/src/index.ts"
+      ],
+      "@tutos-monorepo/template-driven-forms/shared/attestation-form/data-access": [
+        "libs/template-driven-forms/shared/attestation-form/data-access/src/index.ts"
+      ],
+      "@tutos-monorepo/template-driven-forms/shared/attestation-form/ui": [
+        "libs/template-driven-forms/shared/attestation-form/ui/src/index.ts"
+      ],
+      "@tutos-monorepo/template-driven-forms/shared/data-access": [
+        "libs/template-driven-forms/shared/data-access/src/index.ts"
+      ],
+      "@tutos-monorepo/template-driven-forms/shell/feature": [
+        "libs/template-driven-forms/shell/feature/src/index.ts"
+      ],
+      "@tutos-monorepo/template-driven-forms/update-attestation/data-access": [
+        "libs/template-driven-forms/update-attestation/data-access/src/index.ts"
+      ],
+      "@tutos-monorepo/template-driven-forms/update-attestation/feature": [
+        "libs/template-driven-forms/update-attestation/feature/src/index.ts"
+      ]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

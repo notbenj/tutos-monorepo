@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["src/**/*.ts", "../../libs/template-driven-forms/shell/src/lib/nx-welcome.component.ts"],
+  "compilerOptions": {
+    "types": ["jest", "node"]
+  }
+}

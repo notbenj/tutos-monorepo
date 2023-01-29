@@ -1,0 +1,12 @@
+<h1>Attestation</h1>
+<button mat-button mat-raised-button color="primary" routerLink="create">Créer</button>
+<div class="attestations" *ngIf="attestations$ | async as attestations">
+    <mat-card *ngFor="let attestation of attestations">
+        <mat-card-header>
+            <mat-card-title>{{attestation.name}}</mat-card-title>            
+        </mat-card-header>
+        <mat-card-actions>
+            <a mat-button color="primary" routerLink="{{attestation.id}}">Modifier</a>
+        </mat-card-actions>
+    </mat-card>
+</div>

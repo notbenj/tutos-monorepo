@@ -1,0 +1,5 @@
+<h1>Modification d'une attestation</h1>
+
+<ng-container *ngIf="vm$ | async as vm">
+    <tutos-monorepo-attestation-form [vm]="vm" *ngIf="loaded$ | async"></tutos-monorepo-attestation-form>
+</ng-container>
